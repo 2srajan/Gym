@@ -430,7 +430,7 @@ gymRuleSchema.pre('save', function(next) {
 });
 
 gymRuleSchema.index({ category: 1, priority: -1, display_order: 1 });
-gymRuleSchema.index { active: 1, display_order: 1 };
+gymRuleSchema.index({ active: 1, display_order: 1 });
 gymRuleSchema.index({ facility_id: 1, active: 1 });
 gymRuleSchema.index({ applies_to: 1 });
 gymRuleSchema.index({ approval_status: 1 });
